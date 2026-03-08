@@ -58,10 +58,21 @@ $usuarios = $pdo->query("SELECT * FROM usuarios")->fetchAll();
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <style>
+    .bg-danger {
+        background-color: #d32f2f !important; /* Un rojo un poco más formal */
+    }
+    .nav-link:hover {
+        color: #ffcdd2 !important; /* Un rosa muy claro al pasar el mouse */
+    }
+
+    </style>
+
 </head>
 <body class="bg-light">
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger shadow">
     <div class="container">
         <a class="navbar-brand" href="dashboard.php">SISTEMA DIANA</a>
         <div class="ms-auto">
