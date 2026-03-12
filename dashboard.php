@@ -52,7 +52,7 @@ if (!isset($_SESSION['user_id'])) header("Location: index.php");
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link text-white fw-semibold" href="#"><i class="bi bi-tag"></i> Marcas</a>
+                    <a class="nav-link text-white fw-semibold" href="marcas.php"><i class="bi bi-tag"></i> Marcas</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white fw-semibold" href="#"><i class="bi bi-box-seam"></i> Artículos</a>
