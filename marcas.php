@@ -48,7 +48,7 @@
     ?>
 
 
-<div class="container">
+<div class="container mt-5">
     <div class="card border-primary shadow">
         <div class="card-header bg-primary text-white d-flex justify-content-between">
             <span>Listado de Marcas</span>
