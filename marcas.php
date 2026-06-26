@@ -43,14 +43,10 @@
 </head>
 <body class="bg-light">
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-danger shadow mb-4">
-    <div class="container">
-        <a class="navbar-brand fw-bold" href="dashboard.php">SISTEMA DIANA</a>
-        <button class="btn btn-light btn-sm text-danger fw-bold" onclick="abrirModalCrear()">
-            <i class="bi bi-file-earmark-plus"></i> Agregar Marca
-        </button>
-    </div>
-</nav>
+  <?php
+      include "barraNavegacion.php";
+    ?>
+
 
 <div class="container">
     <div class="card border-primary shadow">
