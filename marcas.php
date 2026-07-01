@@ -50,7 +50,7 @@
 
 <div class="container mt-5">
     <div class="card border-primary shadow">
-        <div class="card-header bg-primary text-white d-flex justify-content-between">
+        <div class="card-header text-white d-flex justify-content-between" style="background-color: #1a365d;">
             <span>Listado de Marcas</span>
             
             <button class="btn btn-outline-light btn-sm text-white fw-bold" onclick="abrirModalCrear()">
@@ -79,7 +79,7 @@
 <div class="modal fade" id="modalMarca" tabindex="-1">
     <div class="modal-dialog">
         <div class="modal-content">
-            <div class="modal-header bg-primary text-white">
+            <div class="modal-header  text-white" style="background-color: #1a365d;"> 
                 <h5 class="modal-title" id="modalTitulo">Marca</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
@@ -95,7 +95,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="submit" class="btn btn-success"><i class="bi bi-check-circle"></i> Guardar</button>
+                    <button type="submit" class="btn btn-success" style="background-color:#1a365d"><i class="bi bi-check-circle"></i> Guardar</button>
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
                 </div>
             </form>
@@ -217,7 +217,7 @@ function eliminarMarca(id) {
         icon: 'warning',
         showCancelButton: true,
         confirmButtonColor: '#d33',
-        cancelButtonColor: '#3085d6',
+        cancelButtonColor: '#0a2238',
         confirmButtonText: 'Sí, eliminar',
         cancelButtonText: 'Cancelar'
     }).then((result) => {

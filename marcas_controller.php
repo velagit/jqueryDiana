@@ -7,7 +7,7 @@ $action = $_GET['action'] ?? '';
 switch ($action) {
     case 'listar':
     $buscar = $_GET['buscar'] ?? '';
-    $por_pagina = 6;
+    $por_pagina = 12;
     $pagina = isset($_GET['pagina']) ? (int)$_GET['pagina'] : 1;
     $inicio = ($pagina - 1) * $por_pagina;
 
